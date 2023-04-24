@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Hostel Finder</title>
 
   <!-- BOOTSTRAP LINK -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
     rel="stylesheet">
+
+
 
 
 </head>
@@ -37,18 +39,18 @@
       <!-- MENU ITEMS  -->
       <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active marginBetweenMenuItems" aria-current="page" href="#">Home</a>
+          <a class="nav-link active marginBetweenMenuItems" aria-current="page" href="index.html">Home</a>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle marginBetweenMenuItems" href="#" id="navbarDropdownMenuLink"
               role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Hostels
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Boy's Hostels</a></li>
-              <li><a class="dropdown-item" href="#">Girl's Hostels</a></li>
+              <li><a class="dropdown-item" href="boysHostel.html">Boy's Hostels</a></li>
+              <li><a class="dropdown-item" href="girlsHostels.html">Girl's Hostels</a></li>
             </ul>
           </li>
-          <a class="nav-link marginBetweenMenuItems" href="#">Contact Us</a>
+          <a class="nav-link marginBetweenMenuItems" href="contactUs.html">Contact Us</a>
         </div>
       </div>
 
@@ -130,7 +132,7 @@
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
             content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
@@ -141,44 +143,70 @@
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
             content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
   </div>
 
 
-<div id="contactCall">
-  <h2>
-    OR, LET US GIVE YOU CALL
-  </h2>
-</div>
+  <div id="contactCall">
+    <h2>
+      OR, LET US GIVE YOU CALL
+    </h2>
+  </div>
 
-<div class="contactCallForm">
-  <div class="row ">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  <div class="contactCallForm">
+    <div class="row ">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
     </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <div class="col margin-top">
+      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+    </div>
+    <div class="col margin-top">
+      <input type="number" class="form-control" placeholder="Mobile Number" aria-label="Mobile Number">
+    </div>
+    <div class="col margin-top">
+      <input type="text" class="form-control" placeholder="College Or University" aria-label="University">
+    </div>
+    <div class="col margin-top">
+      <input type="number" class="form-control" placeholder="Year" aria-label="University">
+    </div>
+    <div class="col-auto margin-top">
+      <button type="submit" class="btn btn-primary mb-3">Submit</button>
     </div>
   </div>
-  <div class="col margin-top">
-    <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+
+
+  <div id="aboutSection" class="col">
+    <h2>About Us.</h2>
+    <div class="row">
+      <p id="aboutUsMatter" class="col">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.</p>
+
+        <div id="contactDetails" class="col">
+        <p >example.email@gmail.com</p>
+        <p class="margin-top">9128507171</p> 
+        <p class="margin-top">Alpha 1, Greater Noida</p>
+        </div>
+
+    </div>
+    
   </div>
-  <div class="col margin-top">
-    <input type="number" class="form-control" placeholder="Mobile Number" aria-label="Mobile Number">
+
+  <div id="footer" class ="margin-top">
+    <p>All Copyright Belongs to Us 2023</p>
   </div>
-  <div class="col margin-top">
-    <input type="text" class="form-control" placeholder="College Or University" aria-label="University">
-  </div>
-  <div class="col margin-top">
-    <input type="number" class="form-control" placeholder="Year" aria-label="University">
-  </div>
-  <div class="col-auto margin-top">
-    <button type="submit" class="btn btn-primary mb-3">Submit</button>
-  </div>
-</div>
+
 
 
 
