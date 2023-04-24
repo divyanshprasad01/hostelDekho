@@ -13,6 +13,11 @@
   <!-- CSS FILE LINK -->
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
+    rel="stylesheet">
+
 
 </head>
 
@@ -46,34 +51,134 @@
           <a class="nav-link marginBetweenMenuItems" href="#">Contact Us</a>
         </div>
       </div>
+
+
       <!-- REGISTER BUTTON -->
-      <button type="button" class="btn btn-success commonMargin">REGISTER</button>
+      <div id="registerBtn collapse navbar-collapse">
+        <button type="button" class="btn btn-success commonMargin">REGISTER</button>
+
+      </div>
+
     </div>
   </nav>
 
   <!-- HomePage Section With an Overlay -->
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+
+  <div id="box">
+
+    <!-- <video autoplay muted loop id="bg_video">
+      <source src="bg2.mp4" type="video/mp4">
+
+    </video> -->
+
+    <div id="welcomeText">
+      <h1>SEARCHING FOR HOSTELS?</h1>
     </div>
-    <div class="carousel-inner" >
-      <div class="carousel-item active " data-bs-interval = "2000">
-        <img src="hostel_background.jpg" class="d-block w-100 " alt="...">
+    <div id="dialogueBox">
+      <h3>WE ARE HERE TO HELP...</h3>
+    </div>
+
+    <div id="searchBar">
+      <input class="form-control form-control-search form-control-lg" list="datalistOptions" id="exampleDataList"
+        placeholder="Type to search...">
+      <datalist id="datalistOptions">
+        <option value="Greater Noida">
+        <option value="Delhi">
+        <option value="Noida">
+
+      </datalist>
+      <button type="button" class="btn btnSearch btn-success">search</button>
+    </div>
+    <div id="onlyNoidaNote">
+      <p id="serveNote">*currently we only serve in Greater Noida, Noida & Delhi.</p>
+    </div>
+  </div>
+
+  <div id="listings">
+    <h2>OUR CURRENT LISTINGS...</h2>
+
+  </div>
+
+  <div id="cards" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card text-white bg-dark h-100">
+        <img src="hostel_design.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-      <div class="carousel-item " data-bs-interval = "2000">
-        <img src="hostel_background.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="col">
+      <div class="card text-white bg-dark h-100">
+        <img src="hostel_design2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a short card.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-      <div class="carousel-item " data-bs-interval = "2000">
-        <img src="hostel_background.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="col">
+      <div class="card text-white bg-dark h-100">
+        <img src="hostel_design3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-white bg-dark h-100">
+        <img src="hostel_design.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     </div>
   </div>
 
 
+<div id="contactCall">
+  <h2>
+    OR, LET US GIVE YOU CALL
+  </h2>
+</div>
 
+<div class="contactCallForm">
+  <div class="row ">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+  <div class="col margin-top">
+    <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+  </div>
+  <div class="col margin-top">
+    <input type="number" class="form-control" placeholder="Mobile Number" aria-label="Mobile Number">
+  </div>
+  <div class="col margin-top">
+    <input type="text" class="form-control" placeholder="College Or University" aria-label="University">
+  </div>
+  <div class="col margin-top">
+    <input type="number" class="form-control" placeholder="Year" aria-label="University">
+  </div>
+  <div class="col-auto margin-top">
+    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+  </div>
+</div>
 
 
 

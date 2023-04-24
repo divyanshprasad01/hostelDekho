@@ -1,49 +1,125 @@
-*{
-    margin: 0 !important;
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Raleway;
 }
 
-.customNavBar{
+.customNavBar {
     background-color: beige !important;
 }
 
-.commonMargin{
+.commonMargin {
     margin-left: 50px !important;
     margin-right: 50px !important;
 }
 
-.marginBetweenMenuItems{
-margin-left: 30px !important;
+.marginBetweenMenuItems {
+    margin-left: 30px !important;
     margin-right: 30px !important;
 }
 
-.BannerSection{
-    width: auto !important;
-    height: 100vh !important;
-    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)) !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    text-decoration-color: white !important;
+/* #bg_video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1537px;
+    height: auto;
+    z-index: -2;
+} */
+
+#onlyNoidaNote{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
 }
 
-.carouselHeight{
-    height: 100vh !important;
+#dialogueBox{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
 }
 
-.carousel-item{
-    height: calc(100vh - 80px);
-    min-height: 300px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    
+#listings{
+    margin-left: 40px;
+    margin-top: 180px;
 }
 
-.carousel-item:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.5);
-  }
+#cards{
+    padding-inline: 150px;
+    margin-top: 30px;
+}
+
+
+#searchBar{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content:center;
+
+}
+.btnSearch{
+    margin-left: 20px;
+}
+
+.form-control-search{
+    width: 50%;
+}
+
+
+#welcomeText {
+    margin: 10px 10px;
+    margin-top: 80px;
+    z-index: 2;
+    text-align: center !important;
+    padding: 8px !important;
+    font-size: 100px !important;
+    color: black !important;
+}
+
+
+#hostelsCards {
+    margin: auto auto;
+    margin-top: 10px;
+    align-items: start !important;
+    text-align: start !important;
+    padding-inline: 10% !important;
+    /* padding: 10px !important; */
+    font-size: 100px !important;
+    color: white;
+}
+
+
+#addNote {
+    width: 80%;
+    padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+    margin: 37px auto;
+    background: rgb(0, 0, 0, 0.6) !important;
+    color: white;
+}
+
+#cards-list {
+    margin: 10px !important;
+}
+
+#contactCall{
+    margin-left: 40px;
+    margin-top: 180px;
+}
+
+.contactCallForm{
+    margin-top: 50px ;
+    padding-inline: 15%;
+}
+
+
+
+.margin-top{
+    margin-top: 30px;
+}
